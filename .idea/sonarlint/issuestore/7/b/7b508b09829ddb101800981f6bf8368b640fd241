@@ -1,0 +1,7 @@
+
+
+java:S1845-"iRename method "preOrder" to prevent any misunderstanding/clash with method "preorder" defined on line 24.(þã¦ô
+S
+java:S1117."8Rename "list" which hides the field declared at line 17.(¤Êí…ýÿÿÿÿ
+f
+java:S1149/"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ã¦ÒŽ

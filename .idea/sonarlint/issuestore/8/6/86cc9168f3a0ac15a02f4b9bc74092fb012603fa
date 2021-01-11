@@ -1,0 +1,38 @@
+
+|
+java:S2293ş"YReplace the type specification in this constructor call with the diamond operator ("<>").(é°’­ùÿÿÿÿ8»Šê¾í.
+[	java:S106Á"9Replace this use of System.out or System.err by a logger.(ĞÔÏ…üÿÿÿÿ8’³ñ¾í.
+[	java:S106ù"9Replace this use of System.out or System.err by a logger.(Ÿ«î·úÿÿÿÿ8üê«—í.
+[	java:S106š"9Replace this use of System.out or System.err by a logger.(Œúÿäûÿÿÿÿ8«ÁÑ¾í.
+U	java:S106x"9Replace this use of System.out or System.err by a logger.(…¢Ò±8üê«—í.
+D
+java:S2189""Add an end condition to this loop.(˜ïˆÿÿÿÿÿ8Şæ¹ë.
+U	java:S106<"9Replace this use of System.out or System.err by a logger.(ÛÅ³›8­ş¶¾í.
+Y	java:S125“"<This block of commented-out lines of code should be removed.(Ÿâ—»8üê«—í.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(¥Š´Œüÿÿÿÿ8üê«—í.
+Z	java:S106{"9Replace this use of System.out or System.err by a logger.(÷£á‹ıÿÿÿÿ8üê«—í.
+
+java:S1192o"nDefine a constant instead of duplicating this literal "å½“å‰äºŒå‰æ’åºæ ‘ä¸ºç©ºï¼Œè¯·æ·»åŠ æ•°æ®" 4 times.(»Ñì±úÿÿÿÿ8§“Å—í.
+[	java:S106ú"9Replace this use of System.out or System.err by a logger.(»Ñì±úÿÿÿÿ8Œ½ë¾í.
+U	java:S1062"9Replace this use of System.out or System.err by a logger.(Ñ£Á8üê«—í.
+g	java:S128/"LEnd this switch case with an unconditional break, return or throw statement.(ÒñŠ{8ÄµŠ¿í.
+9
+java:S3626Æ"Remove this redundant jump.(ûÁİ…8üê«—í.
+[	java:S106œ"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8ª©ì¾í.
+[	java:S106Û"9Replace this use of System.out or System.err by a logger.(»Ñì±úÿÿÿÿ8§“Å—í.
+T	java:S106"9Replace this use of System.out or System.err by a logger.(—øñ8üê«—í.
+V	java:S106Å"9Replace this use of System.out or System.err by a logger.(¤‘Óú8üê«—í.
+Z	java:S106o"9Replace this use of System.out or System.err by a logger.(»Ñì±úÿÿÿÿ8üê«—í.
+w
+java:S2293ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(š…ª8»Šê¾í.
+8
+java:S3626A"Remove this redundant jump.(ûÁİ…8üê«—í.
+Z	java:S106r"9Replace this use of System.out or System.err by a logger.(¡­º§şÿÿÿÿ8üê«—í.
+n
+java:S1149½"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ŠÈİà8Ğ·¨—í.
+n
+java:S1149ß"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ŠÈİà8Ğ·¨—í.
+u
+java:S3776ô"RRefactor this method to reduce its Cognitive Complexity from 34 to the 15 allowed.(ßÌñµıÿÿÿÿ8üê«—í.
+[	java:S106˜"9Replace this use of System.out or System.err by a logger.(›ÈÂüşÿÿÿÿ8“Â¾í.
+[	java:S106¹"9Replace this use of System.out or System.err by a logger.(»Ñì±úÿÿÿÿ8šÃ—í.

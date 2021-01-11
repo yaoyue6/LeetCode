@@ -1,0 +1,7 @@
+
+U	java:S1066"9Replace this use of System.out or System.err by a logger.(×ÇÂ8š¨ğ¿í.
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(İÖÈ8ÒÒÙ¿í.
+Z	java:S106
+"9Replace this use of System.out or System.err by a logger.(¥¬Æ‚şÿÿÿÿ8ô“‚¿í.
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(Óàê–8¾±ö¿í.
+a	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¿õ 8ö—¿í.
