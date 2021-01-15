@@ -2,7 +2,9 @@ package com.yaoyue.practice.tree;
 
 import com.yaoyue.practice.tree.base.TreeNode;
 
+import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 /**
@@ -22,7 +24,7 @@ public class TreeNodeTest02 {
         node1.right = new TreeNode(5);
         node2.left = new TreeNode(6);
         node2.right = new TreeNode(7);
-        level(head);
+        levelOrderBottom1(head);
     }
 
     public static void level(TreeNode head) {
@@ -42,5 +44,37 @@ public class TreeNodeTest02 {
             }
             System.out.println(node.val);
         }
+    }
+
+    public static List<List<Integer>> levelOrderBottom1(TreeNode root) {
+        List<List<Integer>> result = new ArrayList<>();
+        if (root == null) {
+            return result;
+        }
+
+        Queue<TreeNode> queue1 = new LinkedList<>();
+        queue1.add(root);
+        TreeNode node = null;
+        while (!queue1.isEmpty()) {
+            List<Integer> list = new ArrayList<>();
+            // 辅助队列，用来存储每层的节点
+            Queue<TreeNode> queue2 = new LinkedList<>();
+            while (!queue1.isEmpty()) {
+                // 弹出队列中的头结点
+                node = queue1.poll();
+                list.add(node.val);
+                // 将每层节点存储入队列
+                if (node.left != null) {
+                    queue2.add(node.left);
+                }
+                if (node.right != null) {
+                    queue2.add(node.right);
+                }
+            }
+            result.add(0, list);
+            // 将上一层节点队列赋值给当前队列
+            queue1 = queue2;
+        }
+        return result;
     }
 }

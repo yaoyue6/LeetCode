@@ -36,6 +36,8 @@ public class LeetCode144 {
      * @return
      */
     public List<Integer> preOrderTraversal2(TreeNode root) {
+        List<Integer> list = new ArrayList<>();
+
         if (root == null) {
             return list;
         }
