@@ -8,7 +8,7 @@ import com.yaoyue.leetcode.tree.base.TreeNode;
  * @author: WangDongXu (15224931482)
  * @date: 2020/12/11 16:17
  **/
-public class In04_03 {
+public class In0403 {
 
     ListNode[] listNode;
 
