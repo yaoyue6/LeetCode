@@ -1,10 +1,7 @@
 package com.yaoyue.leetcode.array;
 
-import org.junit.Test;
-
 public class LeetCode26 {
 
-    @Test
     public void test() {
         int[] array = {1, 1, 2};
         removeDuplicates(array);

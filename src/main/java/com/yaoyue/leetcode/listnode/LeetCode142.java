@@ -1,7 +1,6 @@
 package com.yaoyue.leetcode.listnode;
 
 import com.yaoyue.leetcode.listnode.base.ListNode;
-import org.junit.Test;
 
 import java.util.HashSet;
 import java.util.Set;
@@ -13,7 +12,6 @@ import java.util.Set;
  **/
 public class LeetCode142 {
 
-    @Test
     public void test() {
         ListNode root = new ListNode(3);
         ListNode next1 = new ListNode(2);

@@ -12,6 +12,14 @@ public class DacTest04 {
 
     List<String> list = new ArrayList<>();
 
+    public void test() {
+        String str = "abcd";
+        process(str.toCharArray(), 0);
+        for (String s : list) {
+            System.out.println(s);
+        }
+    }
+
     /**
      * 可重复的全排列
      * @param chars
@@ -19,14 +27,14 @@ public class DacTest04 {
      */
     public void process(char[] chars, int index) {
         if (index == chars.length) {
-            list.add(chars.toString());
+            list.add(String.valueOf(chars));
             return;
         }
         for (int i = index; i < chars.length; i++) {
             // 交换两元素
             swap(i, index, chars);
             // 递归处理
-            process(chars, index);
+            process(chars, index + 1);
             // 还原现场
             swap(i, index, chars);
         }
@@ -39,7 +47,7 @@ public class DacTest04 {
      */
     public void process1(char[] chars, int index) {
         if (index == chars.length) {
-            list.add(chars.toString());
+            list.add(String.valueOf(chars));
             return;
         }
         boolean[] flag = new boolean[26];
@@ -50,7 +58,7 @@ public class DacTest04 {
                 // 交换两元素
                 swap(i, index, chars);
                 // 递归处理
-                process1(chars, index);
+                process1(chars, index + 1);
                 // 还原现场
                 swap(i, index, chars);
             }

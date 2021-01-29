@@ -1,7 +1,5 @@
 package com.yaoyue.leetcode.primary.array;
 
-import org.junit.Test;
-
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -13,7 +11,6 @@ import java.util.Map;
  **/
 public class Array06Test {
 
-    @Test
     public void test() {
         int[] nums1 = {4, 9, 5, 4, 4};
         int[] nums2 = {9, 4, 9, 8, 4};

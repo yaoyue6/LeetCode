@@ -1,7 +1,5 @@
 package com.yaoyue.leetcode.primary.listnode;
 
-import org.junit.Test;
-
 /**
  * @description: 删除链表的倒数第N个节点
  * @author: WangDongXu (15224931482)
@@ -9,7 +7,6 @@ import org.junit.Test;
  **/
 public class ListNode02Test {
 
-    @Test
     public void test() {
         ListNode head = new ListNode(1);
         head.next = new ListNode(2);

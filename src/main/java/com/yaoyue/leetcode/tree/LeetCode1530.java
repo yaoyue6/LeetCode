@@ -1,7 +1,6 @@
 package com.yaoyue.leetcode.tree;
 
 import com.yaoyue.leetcode.tree.base.TreeNode;
-import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +12,6 @@ import java.util.List;
  **/
 public class LeetCode1530 {
 
-    @Test
     public void test() {
         TreeNode node1 = new TreeNode(1);
         TreeNode node2 = new TreeNode(2);

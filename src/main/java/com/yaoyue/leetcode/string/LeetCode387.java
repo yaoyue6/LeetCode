@@ -1,7 +1,5 @@
 package com.yaoyue.leetcode.string;
 
-import org.junit.Test;
-
 import java.util.HashMap;
 import java.util.Map;
 
@@ -12,7 +10,6 @@ import java.util.Map;
  **/
 public class LeetCode387 {
 
-    @Test
     public void test() {
         String s = "loveleetcode";
 

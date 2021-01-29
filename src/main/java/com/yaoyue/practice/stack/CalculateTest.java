@@ -1,7 +1,5 @@
 package com.yaoyue.practice.stack;
 
-import org.junit.Test;
-
 import java.util.Stack;
 
 /**
@@ -11,7 +9,6 @@ import java.util.Stack;
  **/
 public class CalculateTest {
 
-    @Test
     public void test() {
         String str = "( 1 + ( ( 2 + 4 ) * ( 4 * 5 ) ) )";
         double calculate = calculate(str);

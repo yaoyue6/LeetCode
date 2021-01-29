@@ -1,7 +1,5 @@
 package com.yaoyue.leetcode.stack;
 
-import org.junit.Test;
-
 import java.util.Stack;
 
 /**
@@ -11,7 +9,6 @@ import java.util.Stack;
  **/
 public class LeetCode20 {
 
-    @Test
     public void test() {
         String s = "()))";
         System.out.println(isValid(s));

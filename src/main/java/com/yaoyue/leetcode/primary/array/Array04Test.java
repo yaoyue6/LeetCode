@@ -1,8 +1,5 @@
 package com.yaoyue.leetcode.primary.array;
 
-
-import org.junit.Test;
-
 import java.util.HashSet;
 import java.util.Set;
 
@@ -13,7 +10,6 @@ import java.util.Set;
  **/
 public class Array04Test {
 
-    @Test
     public void Test() {
         int[] nums = {3, 1};
         System.out.println(containsDuplicate(nums));

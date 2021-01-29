@@ -1,10 +1,7 @@
 package com.yaoyue.leetcode.array;
 
-import org.junit.Test;
-
 public class LeetCode88 {
 
-    @Test
     public void test() {
         int[] nums1 = {1, 2, 3, 0, 0, 0};
         int[] nums2 = {2, 5, 6};

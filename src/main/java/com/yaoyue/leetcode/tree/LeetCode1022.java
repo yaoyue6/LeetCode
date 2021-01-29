@@ -1,7 +1,6 @@
 package com.yaoyue.leetcode.tree;
 
 import com.yaoyue.leetcode.tree.base.TreeNode;
-import org.junit.Test;
 
 /**
  * @description: 从根到叶的二进制数之和
@@ -10,7 +9,6 @@ import org.junit.Test;
  **/
 public class LeetCode1022 {
 
-    @Test
     public void test() {
         TreeNode root = new TreeNode(1);
         TreeNode node1 = new TreeNode(0);

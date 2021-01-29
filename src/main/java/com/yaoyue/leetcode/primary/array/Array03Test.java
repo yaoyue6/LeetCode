@@ -1,7 +1,5 @@
 package com.yaoyue.leetcode.primary.array;
 
-import org.junit.Test;
-
 /**
  * @description: 旋转数组
  * @author: WangDongXu (15224931482)
@@ -9,7 +7,6 @@ import org.junit.Test;
  **/
 public class Array03Test {
 
-    @Test
     public void test() {
         int[] nums = {1,2,3,4,5,6,7};
         rotate(nums, 3);
